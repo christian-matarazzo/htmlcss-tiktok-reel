@@ -34,6 +34,26 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display:flex;
+}
+
+.header-text {
+	font-family:TikTok Sans;
+	display:flex;
+	gap: 1rem;
+	color: rgba(255, 255, 255, 0.488);
+}
+
+.header-text :last-child {
+	color: rgb(251, 251, 251);
+	border-bottom: solid white 3px;
+	
+}
+
+.play-button, .search-button {
+	font-size: 1.5rem;
+	color: white;
+	margin-left: 3px;
 }
 
 /* Footer */
