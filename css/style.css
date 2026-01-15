@@ -36,6 +36,8 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	padding-left: 20px;
+	padding-right: 20px;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -48,6 +50,23 @@ video {
 	gap: 1rem;
 	color: rgba(255, 255, 255, 0.488);
 	margin-top: 10px;
+	position: relative;
+}
+.header-text > p:nth-child(2){
+
+	position: relative;
+}
+.header-text > p:nth-child(2)::after {
+  content: "";
+  position: absolute;
+
+  top: 2px;
+  right: -8px;
+
+  width: 6px;
+  height: 6px;
+  background-color: #ff3b30;
+  border-radius: 50%;
 }
 
 .header-text :last-child {
@@ -119,7 +138,28 @@ justify-content: space-evenly;
 	le tue regole, se necessario. */
 }
 
-.profile-picture {
+.profile-plus {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 0px solid red;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  bottom: 288.75px;
+  right: 24px;
+
+}
+	
+	
+	
+	
+
+
+
+
+.profile-picture{
+	
 	border-radius: 50%;
 	border: 3px white solid;
 	width:36px;
